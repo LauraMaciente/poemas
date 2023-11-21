@@ -1,0 +1,64 @@
+body {
+    font-family: 'Crimson Text', serif, 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #d7cad8;
+    color: rgb(66, 51, 75);
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+article {
+    background-color: rgb(255, 255, 255);
+    color: #000000; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    line-height: 1.5; 
+    padding: 10px;
+}
+
+.poema {
+    font-size: 1.1em; 
+    color: #555; 
+    margin: 0; 
+    font-size: 20px;
+}
+
+a {
+    display: block; 
+    text-align: center;
+    text-decoration: none; 
+    color: rgb(55, 49, 58);
+    background-color: #d7cad8;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold; 
+}
+
+
+button {
+    border-radius: 10px;
+    background-color: #d7cad8;
+    color: rgb(55, 49, 58);
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block; 
+}
+
+@media screen and (max-width: 768px) {
+    article {
+        max-width: 100%;
+    }
+    header, button {
+        padding: 5px 0;
+    }
+}
